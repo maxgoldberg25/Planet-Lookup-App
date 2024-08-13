@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537E331D2947C2370077AFDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E331C2947C2360077AFDA /* ContentView.swift */; };
+		537E331F2947C2410077AFDA /* TabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E331E2947C2410077AFDA /* TabType.swift */; };
+		5385EC942944FAF7002A9242 /* Planet_SearcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385EC932944FAF7002A9242 /* Planet_SearcherApp.swift */; };
+		5385EC982944FAF9002A9242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5385EC972944FAF9002A9242 /* Assets.xcassets */; };
+		5385EC9B2944FAF9002A9242 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5385EC9A2944FAF9002A9242 /* Preview Assets.xcassets */; };
+		5385EC9D2944FAF9002A9242 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385EC9C2944FAF9002A9242 /* Persistence.swift */; };
+		5385ECA02944FAF9002A9242 /* Planet_Searcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5385EC9E2944FAF9002A9242 /* Planet_Searcher.xcdatamodeld */; };
+		5385ECAA2944FB1F002A9242 /* Bundle+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECA62944FB1F002A9242 /* Bundle+Info.swift */; };
+		5385ECAC2944FB1F002A9242 /* ApiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECA82944FB1F002A9242 /* ApiList.swift */; };
+		5385ECAD2944FB1F002A9242 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECA92944FB1F002A9242 /* InfoView.swift */; };
+		5385ECAF2944FB2D002A9242 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECAE2944FB2D002A9242 /* Api.swift */; };
+		5385ECB329451985002A9242 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECB229451985002A9242 /* SettingsView.swift */; };
+		5385ECB629466FDA002A9242 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECB529466FDA002A9242 /* Color.swift */; };
+		5385ECBC2946E66D002A9242 /* MilkyWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECBB2946E66D002A9242 /* MilkyWayView.swift */; };
+		5385ECC029478EFE002A9242 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECBF29478EFE002A9242 /* MusicPlayer.swift */; };
+		5385ECC229478F51002A9242 /* mixkit-serene-view-443.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5385ECC129478F51002A9242 /* mixkit-serene-view-443.mp3 */; };
+		5385ECC52947A280002A9242 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECC32947A280002A9242 /* WebView.swift */; };
+		5385ECC62947A280002A9242 /* WebViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECC42947A280002A9242 /* WebViewRep.swift */; };
+		5385ECC82947A3E4002A9242 /* GoBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5385ECC72947A3E4002A9242 /* GoBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		537E331C2947C2360077AFDA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		537E331E2947C2410077AFDA /* TabType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabType.swift; sourceTree = "<group>"; };
+		5385EC902944FAF7002A9242 /* Planet Searcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planet Searcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5385EC932944FAF7002A9242 /* Planet_SearcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet_SearcherApp.swift; sourceTree = "<group>"; };
+		5385EC972944FAF9002A9242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5385EC9A2944FAF9002A9242 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5385EC9C2944FAF9002A9242 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5385EC9F2944FAF9002A9242 /* Planet_Searcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Planet_Searcher.xcdatamodel; sourceTree = "<group>"; };
+		5385ECA62944FB1F002A9242 /* Bundle+Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
+		5385ECA82944FB1F002A9242 /* ApiList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiList.swift; sourceTree = "<group>"; };
+		5385ECA92944FB1F002A9242 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		5385ECAE2944FB2D002A9242 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		5385ECB229451985002A9242 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5385ECB42946674B002A9242 /* Planet-Searcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Planet-Searcher-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5385ECB529466FDA002A9242 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5385ECBB2946E66D002A9242 /* MilkyWayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkyWayView.swift; sourceTree = "<group>"; };
+		5385ECBF29478EFE002A9242 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		5385ECC129478F51002A9242 /* mixkit-serene-view-443.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mixkit-serene-view-443.mp3"; sourceTree = "<group>"; };
+		5385ECC32947A280002A9242 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		5385ECC42947A280002A9242 /* WebViewRep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewRep.swift; sourceTree = "<group>"; };
+		5385ECC72947A3E4002A9242 /* GoBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoBarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5385EC8D2944FAF7002A9242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5385EC872944FAF7002A9242 = {
+			isa = PBXGroup;
+			children = (
+				5385EC922944FAF7002A9242 /* Planet Searcher */,
+				5385EC912944FAF7002A9242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5385EC912944FAF7002A9242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5385EC902944FAF7002A9242 /* Planet Searcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5385EC922944FAF7002A9242 /* Planet Searcher */ = {
+			isa = PBXGroup;
+			children = (
+				5385ECB42946674B002A9242 /* Planet-Searcher-Info.plist */,
+				5385EC932944FAF7002A9242 /* Planet_SearcherApp.swift */,
+				5385ECA82944FB1F002A9242 /* ApiList.swift */,
+				537E331E2947C2410077AFDA /* TabType.swift */,
+				5385ECB529466FDA002A9242 /* Color.swift */,
+				537E331C2947C2360077AFDA /* ContentView.swift */,
+				5385ECA62944FB1F002A9242 /* Bundle+Info.swift */,
+				5385ECC72947A3E4002A9242 /* GoBarView.swift */,
+				5385ECBF29478EFE002A9242 /* MusicPlayer.swift */,
+				5385ECC129478F51002A9242 /* mixkit-serene-view-443.mp3 */,
+				5385ECB229451985002A9242 /* SettingsView.swift */,
+				5385ECC32947A280002A9242 /* WebView.swift */,
+				5385ECC42947A280002A9242 /* WebViewRep.swift */,
+				5385ECBB2946E66D002A9242 /* MilkyWayView.swift */,
+				5385ECAE2944FB2D002A9242 /* Api.swift */,
+				5385ECA92944FB1F002A9242 /* InfoView.swift */,
+				5385EC972944FAF9002A9242 /* Assets.xcassets */,
+				5385EC9C2944FAF9002A9242 /* Persistence.swift */,
+				5385EC9E2944FAF9002A9242 /* Planet_Searcher.xcdatamodeld */,
+				5385EC992944FAF9002A9242 /* Preview Content */,
+			);
+			path = "Planet Searcher";
+			sourceTree = "<group>";
+		};
+		5385EC992944FAF9002A9242 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5385EC9A2944FAF9002A9242 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5385EC8F2944FAF7002A9242 /* Planet Searcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5385ECA32944FAF9002A9242 /* Build configuration list for PBXNativeTarget "Planet Searcher" */;
+			buildPhases = (
+				5385EC8C2944FAF7002A9242 /* Sources */,
+				5385EC8D2944FAF7002A9242 /* Frameworks */,
+				5385EC8E2944FAF7002A9242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Planet Searcher";
+			productName = "Planet Searcher";
+			productReference = 5385EC902944FAF7002A9242 /* Planet Searcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5385EC882944FAF7002A9242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5385EC8F2944FAF7002A9242 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5385EC8B2944FAF7002A9242 /* Build configuration list for PBXProject "Planet Searcher" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5385EC872944FAF7002A9242;
+			productRefGroup = 5385EC912944FAF7002A9242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5385EC8F2944FAF7002A9242 /* Planet Searcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5385EC8E2944FAF7002A9242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5385ECC229478F51002A9242 /* mixkit-serene-view-443.mp3 in Resources */,
+				5385EC9B2944FAF9002A9242 /* Preview Assets.xcassets in Resources */,
+				5385EC982944FAF9002A9242 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5385EC8C2944FAF7002A9242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5385ECC82947A3E4002A9242 /* GoBarView.swift in Sources */,
+				5385ECC029478EFE002A9242 /* MusicPlayer.swift in Sources */,
+				5385ECAF2944FB2D002A9242 /* Api.swift in Sources */,
+				5385ECAD2944FB1F002A9242 /* InfoView.swift in Sources */,
+				5385ECB629466FDA002A9242 /* Color.swift in Sources */,
+				5385ECBC2946E66D002A9242 /* MilkyWayView.swift in Sources */,
+				537E331F2947C2410077AFDA /* TabType.swift in Sources */,
+				5385ECAC2944FB1F002A9242 /* ApiList.swift in Sources */,
+				537E331D2947C2370077AFDA /* ContentView.swift in Sources */,
+				5385ECA02944FAF9002A9242 /* Planet_Searcher.xcdatamodeld in Sources */,
+				5385ECAA2944FB1F002A9242 /* Bundle+Info.swift in Sources */,
+				5385ECB329451985002A9242 /* SettingsView.swift in Sources */,
+				5385EC9D2944FAF9002A9242 /* Persistence.swift in Sources */,
+				5385EC942944FAF7002A9242 /* Planet_SearcherApp.swift in Sources */,
+				5385ECC62947A280002A9242 /* WebViewRep.swift in Sources */,
+				5385ECC52947A280002A9242 /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5385ECA12944FAF9002A9242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5385ECA22944FAF9002A9242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5385ECA42944FAF9002A9242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planet Searcher/Preview Content\"";
+				DEVELOPMENT_TEAM = M866N23967;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Planet-Searcher-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mgoldb16.Planet-Searcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5385ECA52944FAF9002A9242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planet Searcher/Preview Content\"";
+				DEVELOPMENT_TEAM = M866N23967;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Planet-Searcher-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mgoldb16.Planet-Searcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5385EC8B2944FAF7002A9242 /* Build configuration list for PBXProject "Planet Searcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5385ECA12944FAF9002A9242 /* Debug */,
+				5385ECA22944FAF9002A9242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5385ECA32944FAF9002A9242 /* Build configuration list for PBXNativeTarget "Planet Searcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5385ECA42944FAF9002A9242 /* Debug */,
+				5385ECA52944FAF9002A9242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5385EC9E2944FAF9002A9242 /* Planet_Searcher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5385EC9F2944FAF9002A9242 /* Planet_Searcher.xcdatamodel */,
+			);
+			currentVersion = 5385EC9F2944FAF9002A9242 /* Planet_Searcher.xcdatamodel */;
+			path = Planet_Searcher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5385EC882944FAF7002A9242 /* Project object */;
+}
